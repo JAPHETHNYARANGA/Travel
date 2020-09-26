@@ -1,0 +1,23 @@
+body
+{font-family:Verdana, Geneva, Tahoma, sans-serif;
+padding:20px;
+background-color:whitesmoke;
+
+    }
+header {padding:30px;}   
+header h1{text-align:center;
+font-size:70px;
+margin:20px;}
+
+.left-column{float:left;
+width:48%;padding-right: 10px;
+            }
+
+.right-column{width: 48%;
+padding-left:10px;
+float:right;
+}
+.card{width:100%;}
+.card img{width:100%;}
+/* responsive */
+@media(max-width:700px){.left-column, .right-column{width:100%; padding:10px;}}
